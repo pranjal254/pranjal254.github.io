@@ -1,0 +1,100 @@
+html,
+body,
+.cover
+{
+	height: 100%;
+}
+
+
+.cover {
+	background-image: url('../b_1.jpg');
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #000;
+
+}
+.cover-text{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;  
+}
+
+.cover-text h1{
+	margin: 0;
+	font-size: 70px;
+	letter-spacing: -3px;
+
+}
+
+section{
+	padding: 100px;
+}
+
+h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px; 
+	
+}
+
+.testimonial{
+	background: #222;
+}
+
+blockquote{
+	border: none;
+	margin: 0;
+	font-family: Georgia, Times, serif;
+	font-style: italic; 
+	font-size: 32px;
+	color: white;
+}
+
+blockquote cite{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+	color: #888;
+	margin-top: 40px;
+
+}
+
+#team{
+	background-image: url('../blur.jfif');
+	background-size: cover;
+	color: white;
+	text-align: center;
+
+
+
+}
+
+
+.col-sm-4 img{
+    width: 17em;
+    height: 13em 
+}
+
+footer{
+	background: #B4584F;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: Georgia, Times serif,
+}
+
+@media only screen and ( max-width: 570px){
+	section{
+		padding: 20px; 
+	}
+
+}
