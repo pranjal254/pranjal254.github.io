@@ -1,0 +1,4 @@
+[0524/173540.981:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0525/043738.879:ERROR:process_info.cc(359)] UncheckedAllocate
+[0525/043742.855:ERROR:process_info.cc(359)] UncheckedAllocate
+[0525/043751.278:ERROR:process_info.cc(359)] UncheckedAllocate
