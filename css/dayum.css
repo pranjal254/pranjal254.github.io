@@ -411,14 +411,22 @@ footer{
 .footer-content-about p{
 	line-height: 2;
 }
+form{
+	position: all;
+	margin-left: 50px;
+}
 #yoo input{
-	margin: 8px;
-	padding: 4px;
+	margin: 10px;
+	padding: 8px;
 	display: block;
 	justify-content: center;
 	margin-left: 2.7rem;
 }
-#yoo button:hover{
+button{
+	position:absolute;
+	left: 42%;
+	padding: 4px;
+button:hover{
 	color: #fff;
 	background-color: #111;
 }
@@ -582,14 +590,19 @@ footer{
 	.feedback-btn{
 		margin-left: 7.5rem;
 	}
+	form{
+		position: all;
+		margin-left: 0;
+	}
 	#yoo input{
 		margin-left: 160px;
 		padding: 8px;
 
 	}
-	#yoo button{
+	button{
 		width: 12%;
 		padding: 6px;
+		margin-left: 10px;
 	}
 	
 }
