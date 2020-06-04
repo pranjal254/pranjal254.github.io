@@ -69,18 +69,22 @@ header{
 }
 
 .menu-toggle{
-	color: #fff;
+	color: #FF0000;
 	font-size: 2.5rem;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	position: fixed;
 	right: 2.5rem;
 	cursor: pointer;
 	z-index: 2000;
+	top: 2%;
+	transform: translateY(-2%);
 }
 
 .fa-times{
 	display: none;
+	position: fixed;
+	right: .5rem;
+	top: .1rem;
+
 }
 
 .nav-list{
@@ -116,6 +120,7 @@ header{
 
 .open .fa-times{
 	display: block;	
+	position: fixed;
 }
 .open .fa-bars{
 	display: none;
@@ -408,14 +413,25 @@ footer{
 .footer-content-about p{
 	line-height: 2;
 }
+form{
+	position: all;
+	margin-left: 50px;
+	
+}
+
 #yoo input{
-	margin: 8px;
-	padding: 4px;
+	margin: 10px;
+	padding: 10px;
 	display: block;
 	justify-content: center;
 	margin-left: 2.7rem;
 }
-#yoo button:hover{
+button{
+	position: absolute;
+	left: 42%;
+	padding: 4px;
+}
+button:hover{
 	color: #fff;
 	background-color: #111;
 }
@@ -579,12 +595,17 @@ footer{
 	.feedback-btn{
 		margin-left: 7.5rem;
 	}
+	form{
+		position: all;
+		margin-left: 0px;
+	}
 	#yoo input{
 		margin-left: 160px;
 		padding: 8px;
 
 	}
-	#yoo button{
+	button{
+		margin-left: 10px;
 		width: 12%;
 		padding: 6px;
 	}
@@ -613,3 +634,5 @@ footer{
 		transform: scale(1);
 	}
 }
+
+
